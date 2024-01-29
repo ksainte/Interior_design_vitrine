@@ -1,0 +1,344 @@
+.Services{
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-top:150px;
+    flex-direction: column;
+    
+    
+}
+
+.Services > h1 {
+
+    font-size: 3.5rem;
+    color: rgb(180, 143, 48);;
+    line-height: 1;
+    font-weight: 550;
+    letter-spacing: 0.03em;
+
+}
+
+
+
+.Services_components {
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    max-width: 90rem;
+    scroll-margin-top: 10rem;
+    margin-top:80px;
+    position: relative;
+    right: 40px;
+}
+
+
+
+.Services_leftside{
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.Services_leftside img {
+    height : 550px;
+    width: 550px;
+  }
+
+  .Services_leftside img:hover {
+    cursor: pointer;
+  }
+
+  .Services_rightside  {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+
+  
+  }
+
+
+.Services_rightside > h1 {
+   
+    font-size: 3.2rem;
+    color: rgb(48, 45, 45);
+    line-height: 1;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: 0.02em;
+    position: relative;
+    bottom: 40px;
+   
+   
+}
+
+
+
+.Services_rightside > p {
+
+    display: flex; 
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: black;
+     position: relative;
+    top: 20px;
+    text-align: justify;
+
+
+}
+
+
+.custom__button1 {
+    background-color: rgb(180, 143, 48);
+      color: white;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      line-height: 28px;
+      font-size: 24px;
+      padding: 0.5rem 1.5rem;
+      border-radius: 1px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      position: relative;
+      top:65px;
+  }
+
+  .Services_components1 {
+
+    margin-left: 170px;
+    display:flex;
+    max-width: 90rem;
+    scroll-margin-top: 10rem;
+    margin-top:80px;
+}
+
+  .Services_leftside1  {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+  }
+
+  .Services_leftside1 > h1 {
+   
+    font-size: 3.2rem;
+    color: rgb(48, 45, 45);
+    line-height: 1;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: 0.02em;
+    position: relative;
+    bottom: 40px;
+   
+   
+}
+
+
+
+.Services_leftside1 > p {
+ 
+    font-size: 1.5rem/* 24px */;
+    /* line-height: 3rem; */
+    font-weight: 400;
+    text-align: justify;
+    /* letter-spacing: 0.04em; */
+    text-transform: capitalize;
+    color: black;
+     position: relative;
+    top: 20px;
+
+}
+
+  .Services_rightside1{
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.Services_rightside1 img {
+    height : 550px;
+    width: 550px;
+  }
+
+  .Services_components2 {
+
+
+    display:flex;
+    max-width: 90rem;
+    scroll-margin-top: 10rem;
+    margin-top:80px;
+}
+
+  .Services_rightside2  {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+
+  }
+
+  .Services_rightside2 > h1 {
+   
+    font-size: 3.2rem;
+    color: rgb(48, 45, 45);
+    line-height: 1;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: 0.02em;
+    position: relative;
+    bottom: 40px;
+   
+   
+}
+
+
+
+
+.Services_rightside2 > p {
+ 
+    font-size: 1.5rem/* 24px */;
+    /* line-height: 3rem; */
+    font-weight: 400;
+    text-align: justify;
+    /* letter-spacing: 0.04em; */
+    text-transform: capitalize;
+
+    color: black;
+     position: relative;
+    top: 20px;
+
+}
+
+  .Services_leftside2{
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.Services_leftside2 img {
+    height : 550px;
+    width: 550px;
+  }
+
+
+  /*----------------------------------------------------*/
+
+  @media screen and (max-width: 768px) {
+
+    .Services{
+
+ 
+      margin-top:-140px;
+      
+      
+      
+  }
+  .Services_components {
+
+    display:flex;
+    flex-direction: column-reverse;
+    right: 0px;
+  
+
+}
+
+.Services_rightside  {
+
+  align-items: center;
+
+
+}
+
+.Services_rightside > h1 {
+   
+
+  bottom: 0px;
+  text-align: center;
+  
+
+ 
+}
+
+.Services_leftside img {
+  height : auto;
+  width: auto;
+  padding: 2rem;
+}
+
+.Services_rightside > p {
+padding: 2rem;
+} 
+ 
+
+  .custom__button1 {
+
+      position: relative;
+      top:0px;
+  }
+
+  .Services_components1 {
+
+    margin-left: 0px;
+    flex-direction: column;
+}
+
+.Services_leftside1  {
+  align-items: center;
+}
+
+.Services_leftside1 > p {
+ 
+padding: 2rem;
+}
+
+
+.Services_rightside1 img {
+  height : auto;
+  width: auto;
+  padding: 2rem;
+}
+
+.Services_components2 {
+  display:flex;
+  flex-direction: column-reverse;
+}
+
+.Services_rightside2  {
+
+  align-items: center;
+
+}
+
+.Services_rightside2 > p {
+ 
+padding: 2rem;
+
+}
+
+.Services_leftside2 img {
+  height : auto;
+  width: auto;
+  padding: 2rem;
+}
+
+}

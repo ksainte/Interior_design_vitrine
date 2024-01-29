@@ -1,0 +1,40 @@
+import React from 'react'
+import "./OurStory.css"
+import BoberwArt from '../assets/BoberwArt.jpg';
+import ziggy from '../assets/ziggy.jpg';
+
+import Image from "next/image";
+import Button from './Button'
+
+
+function OurStory() {
+  return (
+    <div className='Story' >
+         <h1>Our Story</h1>
+     
+      <div className='Services_components3'>
+        <article className='Services_leftside1'>
+          <h1>Subtitle</h1>
+         
+          <p > "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </p>
+          <Button
+            styles={'custom__button1'}
+            type={'button'}
+            title={'Open Art'}
+            disabled={false}
+            >
+              <a href="/about_page" > See Our Story</a>
+
+            </Button>
+        </article>
+
+        <div className='Services_rightside3'>
+        <Image src={ziggy} alt="header_img" />
+        </div>
+        </div>
+  
+    </div>
+  )
+}
+
+export default OurStory

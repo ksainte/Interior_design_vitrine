@@ -1,0 +1,62 @@
+.Header_design{
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:43rem;
+
+    overflow: hidden;
+   
+    
+}
+
+.header-background_design{
+    
+    opacity: 0.5;
+  position: relative; 
+  left: 0;
+  top: 0;
+  width: 100%;  
+}
+
+
+
+.Header_components_design{
+
+    position: absolute;
+}
+
+.Header_side_design{
+
+   
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    z-index: 10;
+    /* position:absolute; */
+    
+    padding: 1.5rem;
+    border-radius: 1px;
+    border: solid  rgb(180, 143, 48);
+    outline: none;
+    background-color: white;    
+}
+
+.Header_side_design > h2 {
+   
+    font-size: 3.2rem;
+    color: rgb(48, 45, 45);
+    line-height: 1;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: 0.02em;
+
+}
+
+
+
+
+
+ 
+
+
