@@ -46,7 +46,7 @@ function ContactUs() {
     </div>
     <div className="message">
       <label htmlFor="message"></label>
-      <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
+      <textarea name="message" placeholder="I'd like to chat about" id="message_input" required></textarea>
     </div>
     <div className="submit">
       <input type="submit" value="Send Message" id="form_button" />
@@ -67,3 +67,5 @@ function ContactUs() {
 }
 
 export default ContactUs
+
+// cols="30" rows="5"
