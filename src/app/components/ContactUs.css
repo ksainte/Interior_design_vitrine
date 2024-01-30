@@ -67,9 +67,6 @@ textarea {
 
 #container {
   border: solid 3px rgb(180, 143, 48);
-  /* max-width: 768px; */
-  /* margin: 60px auto; */
-  /* position: relative; */
   padding: 30.5px;
   width: 1000px;
 }
@@ -246,9 +243,28 @@ textarea {
 
 @media screen and (max-width: 768px) {
   #container {
-    margin: 20px auto;
-    width: 95%;
+    margin: auto auto;
+    width: auto;
+    border: solid 0px rgb(180, 143, 48);
+    padding: auto;
+    margin-top: -20px;
   }
+
+  .Contact{
+    margin-top:80px;
+  }
+.submit {
+flex-direction: column;
+    display:flex;
+      left:0px;
+    top:0px;
+}
+
+.submit > p{
+margin-top: 20px;
+}
+
+
 }
 
 @media screen and (max-width: 480px) {

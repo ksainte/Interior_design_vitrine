@@ -9,7 +9,6 @@ function ContactUs() {
     <h1>Contact Us</h1>
 
  <div className='Contact_components'>
-    
  <div id="container">
   <h1>&bull; Keep in Touch &bull;</h1>
   <div className="underline">
@@ -60,6 +59,7 @@ function ContactUs() {
   </form>
 </div>
     
+
  </div>
     </div>
     
