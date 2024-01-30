@@ -173,3 +173,31 @@ display:flex;
 
 
 /* footer section end */
+
+@media screen and (max-width: 768px) {
+  .row {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .use-links > li{
+    text-align: center; 
+    justify-content: center;   
+  }
+
+  .useful-link > h2{
+    margin-top: 50px;
+  }
+
+  .col-md-1 {
+    margin-top: -30px;
+    /* border: solid red; */
+  }
+
+  .foot {
+    margin-top:80px;
+       /* border: solid green; */
+
+}
+}

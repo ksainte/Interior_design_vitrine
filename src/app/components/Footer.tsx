@@ -30,14 +30,14 @@ function Footer() {
 			<div className="container">
 				<div className="row">
 					<div className="col-1">
-						<a href="index.html">
-                            <Image src={logo} alt="" className="img-fluid logo-footer"/></a>
+						<Link href="/">
+                            <Image src={logo} alt="" className="img-fluid logo-footer"/></Link>
                       <div className="footer-about">
                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  </p>
                       </div>
 
 					</div>
-					<div className="col-md-3">
+					<div className="col-md-1">
 						<div className="useful-link">
 							<h2>Useful Links</h2>
 							<div className="use-links">

@@ -47,12 +47,17 @@
     color: rgb(48, 45, 45);
     line-height: 1;
     font-weight: 600;
-    text-align: left;
+    text-align: center;
     letter-spacing: 0.02em;
 
 }
 
-
+@media screen and (max-width: 768px) {
+    .Header_art{
+        height:auto;
+ 
+    }
+}
 
 
 

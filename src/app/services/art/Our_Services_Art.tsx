@@ -14,6 +14,7 @@ function Our_Services_Art() {
  <div className='Art_components'>
 
    <div className='Art_leftside'>
+    
    <Image src={BoberwArt} alt="header_img" />
    </div>
 
@@ -23,7 +24,7 @@ function Our_Services_Art() {
      <p > "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."  </p>
  
    </article>
-   </div>
+  </div>
 
    <div className='Art_components1'>
    <article className='Art_leftside1'>

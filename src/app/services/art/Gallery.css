@@ -29,9 +29,7 @@
     max-width: 90rem;
     scroll-margin-top: 10rem;
     margin-top:80px;
-    /* border: solid red; */
-    /* position: relative;
-    right: 40px; */
+
 }
 
 .Gallery_Up  {
@@ -89,14 +87,6 @@
     margin-right: 2rem;
 }
 
-/* .gallery__image-icon {
-    position: absolute;
-    color: #fff;
-    font-size: 2rem;
-    opacity: 0;
-    transition: .5s ease;
-    cursor: pointer;
-} */
 
 .app__gallery-images_card img {
     width: 100%;
@@ -140,6 +130,60 @@
 .gallery__arrow-icon:hover {
     color: var(--color-white);
 }
+
+@media screen and (max-width: 768px) {
+    .Gallery{
+    margin-top:80px;
+
+}
+.Gallery > h1 {
+
+    font-size: 2.7rem;
+}
+.Gallery_Up > p {
+ 
+
+display: flex;
+padding: 2rem;
+/* border: solid red; */
+width: 25rem;
+font-size: 1.5rem/* 24px */;
+
+}
+.Gallery_components {
+
+
+    margin-top:50px;
+
+}
+
+.Gallery_Down {
+    margin-top: 50px;
+
+}
+
+.app__gallery-images_container {
+    display: flex;
+border: solid red;
+    flex-direction: row;
+    width: max-content;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
+}
+
+.app__gallery-images_card img {
+    height : auto;
+    width: auto;
+    padding: 2rem;
+    object-fit: cover;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+}
+
+
 /* 
 @media screen and (min-width: 2000px) {
     .app__gallery-content button {
