@@ -1,8 +1,6 @@
 import React from 'react'
 
 import BoberwArt from '../assets/BoberwArt.jpg';
-import Boberwall from '../assets/Boberwall.jpg';
-import Small from "./Small";
 
 import "./Our_Services.css"
 import Image from "next/image";
@@ -88,9 +86,7 @@ function Our_Services() {
   
         </div>
 
-        {/* <div className="smallscreen_services">
-        <Small/>
-        </div> */}
+
         
     </div>
   )
