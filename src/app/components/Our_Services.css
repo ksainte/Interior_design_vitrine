@@ -248,7 +248,7 @@
     .Services{
 
  
-      margin-top:-140px;
+      /* margin-top:-140px; */
       
       
       
@@ -274,7 +274,8 @@
 
   bottom: 0px;
   text-align: center;
-  
+  font-size: 2.6rem;
+
 
  
 }
@@ -294,6 +295,18 @@ padding: 2rem;
 
       position: relative;
       top:0px;
+  }
+
+
+    /*----------------------------------------------------*/
+
+    .Services_leftside1 > h1 {
+   
+      bottom: 0px;
+      text-align: center;
+      font-size: 2.6rem;
+
+     
   }
 
   .Services_components1 {
@@ -318,6 +331,9 @@ padding: 2rem;
   padding: 2rem;
 }
 
+    /*----------------------------------------------------*/
+
+
 .Services_components2 {
   display:flex;
   flex-direction: column-reverse;
@@ -327,6 +343,15 @@ padding: 2rem;
 
   align-items: center;
 
+}
+
+.Services_rightside2 > h1 {
+   
+  bottom: 0px;
+  text-align: center;
+ /* border: solid red; */
+ font-size: 2.6rem;
+ 
 }
 
 .Services_rightside2 > p {

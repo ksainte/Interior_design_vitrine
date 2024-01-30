@@ -70,3 +70,89 @@ div.minimalistBlack {
 .divTableCell, .divTableHead { display: table-cell;}
 .divTableHeading { display: table-header-group;}
 .divTableBody { display: table-row-group;}
+
+
+
+div.minimalistBlack1 {
+  border: 3px solid rgb(180, 143, 48);
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.divTable.minimalistBlac1 .divTableCell, .divTable.minimalistBlack1 .divTableHead {
+  border: 1px solid rgb(180, 143, 48);
+  padding: 12px 20px;
+
+}
+.divTable.minimalistBlack1 .divTableBody .divTableCell {
+  font-size: 22px;
+  text-align: justify;
+  
+}
+.divTable.minimalistBlack1 .divTableHeading {
+
+  border-bottom: 3px solid rgb(180, 143, 48);;
+  
+}
+.divTable.minimalistBlack1 .divTableHeading .divTableHead {
+  font-size: 26px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  
+}
+
+.divTable.minimalistBlack1 .divTableBody .divTableRow{
+  padding: 5px 4px;
+  
+}
+
+
+.check {
+display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+  .check {
+    display: flex;
+    }
+
+    .minimalistBlack {
+      display: none;
+      }
+
+      .test {
+        /* border: solid red; */
+        padding: 1rem;
+        }
+  
+
+
+.divTableRow
+ {
+  display: block;
+}
+
+.divTableHead,
+.divTableCell {
+  display: block;
+}
+
+.Process{
+
+
+  margin-top:80px;
+
+
+}
+
+.Process_components {
+  margin-top:80px;
+
+
+}
+
+
+}
