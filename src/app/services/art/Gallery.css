@@ -167,7 +167,7 @@ font-size: 1.5rem/* 24px */;
     border: solid red;
     flex-direction: row;
     width: max-content;
-    overflow-x: hidden;
+    overflow-x: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;  
     overflow-y: hidden;
@@ -195,9 +195,9 @@ font-size: 1.5rem/* 24px */;
     opacity: .35;
 }
 
-.app__gallery-images_card:hover .gallery__image-icon {
+/* .app__gallery-images_card:hover .gallery__image-icon {
     opacity: 1;
-}
+} */
 
 .app__gallery-images_arrows {
     /* border: solid blue; */
