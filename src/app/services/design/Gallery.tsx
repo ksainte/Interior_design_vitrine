@@ -6,7 +6,7 @@ import Image from "next/image";
 
 // import SubHeading  from '../../components/Subheading/Subheading';
 import images from './images';
-import './Gallery.css';
+import './Gallery_design.css';
 
 const Gallery = () => {
   const scrollRef = React.useRef(null);

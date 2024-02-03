@@ -138,8 +138,9 @@
 
 }
 .Gallery > h1 {
-
     font-size: 2.7rem;
+    text-align: center;
+
 }
 .Gallery_Up > p {
  
@@ -158,7 +159,7 @@ font-size: 1.5rem/* 24px */;
 
 .Gallery_Down {
     margin-top: 50px;
-    max-width: 110%;
+    max-width: 100%;
 }
 
 .app__gallery-images_container {
@@ -193,6 +194,10 @@ font-size: 1.5rem/* 24px */;
 
 .app__gallery-images_arrows {
     display: none;
+}
+
+.app__gallery-images_card:hover img {
+    opacity: 1;
 }
 
 }

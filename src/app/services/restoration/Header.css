@@ -52,7 +52,12 @@
 
 }
 
-
+@media screen and (max-width: 768px) {
+    .Header_Restoration{
+        height:auto;
+ 
+    }
+}
 
 
 

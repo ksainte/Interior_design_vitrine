@@ -36,6 +36,8 @@ body{
     max-width: 30rem;
     position:relative;
     top: -40px;
+    /* justify-content: center;
+    align-items: center; */
 
 
 }
@@ -199,5 +201,10 @@ display:flex;
     margin-top:80px;
        /* border: solid green; */
 
+}
+
+.col-1{
+  justify-content: center;
+  align-items: center;
 }
 }
