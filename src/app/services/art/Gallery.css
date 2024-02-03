@@ -100,9 +100,9 @@
     opacity: .35;
 }
 
-.app__gallery-images_card:hover .gallery__image-icon {
+/* .app__gallery-images_card:hover .gallery__image-icon {
     opacity: 1;
-}
+} */
 
 .app__gallery-images_arrows {
     /* border: solid blue; */
@@ -135,6 +135,7 @@
     .Gallery{
     margin-top:80px;
 
+
 }
 .Gallery > h1 {
 
@@ -145,85 +146,53 @@
 
 display: flex;
 padding: 2rem;
-/* border: solid red; */
-width: 25rem;
 font-size: 1.5rem/* 24px */;
 
 }
 .Gallery_components {
-
-
     margin-top:50px;
+    max-width: fit-content;
+
 
 }
 
 .Gallery_Down {
     margin-top: 50px;
-
+    max-width: 110%;
 }
 
 .app__gallery-images_container {
-    display: flex;
-    border: solid red;
-    flex-direction: row;
-    width: max-content;
-    overflow-x: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none;  
-    overflow-y: hidden;
+    display: block;
+    width: 100%;
+    width: fit-content;
+
+
 
 }
 
-.app__gallery-images_card img {
-    height : auto;
-    width: auto;
-    padding: 2rem;
-    object-fit: cover;
-    opacity: 1;
-    transition: .5s ease;
-    /* width: fit-content; */
+.app__gallery-images_container::-webkit-scrollbar {
+    display: none;
 }
 
 .app__gallery-images_card {
     position: relative;
     min-width: 401px;
-    height: 547px;
-    margin-right: 2rem;
+    height: auto;
+    margin-right: 0rem;
+        /* border: solid red; */
+        padding: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
 }
 
-.app__gallery-images_card:hover img {
-    opacity: .35;
-}
 
-/* .app__gallery-images_card:hover .gallery__image-icon {
-    opacity: 1;
-} */
+.app__gallery-images_card img {
+
+    object-fit:contain;
+}
 
 .app__gallery-images_arrows {
-    /* border: solid blue; */
-    width: 1730px;
     display: none;
-    justify-content: space-between;
-    align-items: center;
-
-    /* padding: 0 1rem; */
-    position: absolute;
-    /* right: -1px; */
-    left: -73px;
-    top: 250px;
-    /* bottom: 5%; */
-}
-
-.gallery__arrow-icon {
-    color: var(--color-golden);
-    font-size: 4rem;
-    cursor: pointer;
-    background: var(--color-black);
-    border-radius: 5px;
-}
-
-.gallery__arrow-icon:hover {
-    color: var(--color-white);
 }
 
 }
