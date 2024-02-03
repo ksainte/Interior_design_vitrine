@@ -164,12 +164,14 @@ font-size: 1.5rem/* 24px */;
 
 .app__gallery-images_container {
     display: flex;
-border: solid red;
+    border: solid red;
     flex-direction: row;
     width: max-content;
     overflow-x: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;  
+    overflow-y: hidden;
+
 }
 
 .app__gallery-images_card img {
@@ -179,6 +181,7 @@ border: solid red;
     object-fit: cover;
     opacity: 1;
     transition: .5s ease;
+    /* width: fit-content; */
 }
 
 }
