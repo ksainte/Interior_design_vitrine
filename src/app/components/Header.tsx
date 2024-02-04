@@ -12,7 +12,7 @@ function Header() {
   return (
     <div className="Header">
       <Image
-        className="w-screen opacity-100 hidden md:block"
+        className="w-screen opacity-10po0 hidden md:block"
         src={header_home}
         alt=""
       />
