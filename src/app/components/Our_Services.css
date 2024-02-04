@@ -246,13 +246,9 @@
   @media screen and (max-width: 768px) {
 
     .Services{
-
- 
       margin-top:100px;
-      
-      
-      
   }
+
   .Services_components {
 
     display:flex;
@@ -272,7 +268,7 @@
 .Services_rightside > h1 {
    
 
-  bottom: 0px;
+  bottom: 10px;
   text-align: center;
   font-size: 2.6rem;
 
@@ -284,6 +280,7 @@
   height : auto;
   width: auto;
   padding: 2rem;
+  margin-top: 30px;
 }
 
 .Services_rightside > p {
@@ -294,7 +291,7 @@ padding: 2rem;
   .custom__button1 {
 
       position: relative;
-      top:0px;
+      top:20px;
   }
 
 
@@ -305,15 +302,15 @@ padding: 2rem;
       bottom: 0px;
       text-align: center;
       font-size: 2.6rem;
-
-     
   }
 
   .Services_components1 {
 
     margin-left: 0px;
     flex-direction: column;
-}
+    margin-top: 30px;
+  
+  }
 
 .Services_leftside1  {
   align-items: center;
@@ -322,6 +319,8 @@ padding: 2rem;
 .Services_leftside1 > p {
  
 padding: 2rem;
+top: 20px;
+
 }
 
 
@@ -329,6 +328,8 @@ padding: 2rem;
   height : auto;
   width: auto;
   padding: 2rem;
+  margin-top: 30px;
+
 }
 
     /*----------------------------------------------------*/
@@ -337,6 +338,8 @@ padding: 2rem;
 .Services_components2 {
   display:flex;
   flex-direction: column-reverse;
+  margin-top: 40px;
+
 }
 
 .Services_rightside2  {
@@ -347,7 +350,7 @@ padding: 2rem;
 
 .Services_rightside2 > h1 {
    
-  bottom: 0px;
+  bottom: 10px;
   text-align: center;
  /* border: solid red; */
  font-size: 2.6rem;
@@ -357,6 +360,8 @@ padding: 2rem;
 .Services_rightside2 > p {
  
 padding: 2rem;
+top: 20px;
+
 
 }
 
@@ -364,6 +369,8 @@ padding: 2rem;
   height : auto;
   width: auto;
   padding: 2rem;
+  margin-top: 30px;
+
 }
 
 }

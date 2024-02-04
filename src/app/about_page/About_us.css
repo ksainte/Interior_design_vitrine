@@ -86,7 +86,7 @@
     .About_components1 {
 
         margin-left: 0px;
-        margin-top:60px;
+        margin-top:20px;
     }
 
     .About_leftside1 img {
@@ -99,7 +99,9 @@
 
     .About_leftside1 > h1 {
         text-align: center;
-        bottom: 40px;
+        bottom: 15px;
+        font-size: 2.7rem;
+
 
     }
 
@@ -110,8 +112,8 @@
   }
 
   .About_leftside1 > p {
- 
-    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-size: 1.5rem;
     top: 30px;
     letter-spacing: 0.02em;
     text-align: justify;

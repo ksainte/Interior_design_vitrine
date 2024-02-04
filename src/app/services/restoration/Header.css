@@ -47,7 +47,7 @@
     color: rgb(48, 45, 45);
     line-height: 1;
     font-weight: 600;
-    text-align: left;
+    text-align: center;
     letter-spacing: 0.02em;
 
 }
@@ -55,7 +55,16 @@
 @media screen and (max-width: 768px) {
     .Header_Restoration{
         height:auto;
- 
+    }
+    .Header_leftside_Restoration{      
+        padding: 1rem;
+     
+    }
+    .Header_leftside_Restoration > h2 {
+   
+        font-size: 2.6rem
+   
+    
     }
 }
 

@@ -141,14 +141,13 @@
 
 @media screen and (max-width: 768px) {
     .Gallery_resto{
-    margin-top:80px;
+        margin-top:60px;
     
 
 
 }
 .Gallery_resto > h1 {
 
-    font-size: 2.6rem;
     text-align: center;
 
 

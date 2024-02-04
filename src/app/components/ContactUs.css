@@ -243,15 +243,15 @@ textarea {
 
 @media screen and (max-width: 768px) {
   #container {
-    margin: auto auto;
-    width: auto;
+
     border: solid 0px rgb(180, 143, 48);
-    padding: auto;
-    margin-top: -20px;
+    margin-top: -50px;
+    padding: 0px;
+    width: fit-content;
   }
 
   .Contact{
-    margin-top:80px;
+    margin-top:50px;
   }
 .submit {
 flex-direction: column;
@@ -261,7 +261,7 @@ flex-direction: column;
 }
 
 .submit > p{
-margin-top: 30px;
+margin-top: 40px;
 }
 
 .submit_info > p{

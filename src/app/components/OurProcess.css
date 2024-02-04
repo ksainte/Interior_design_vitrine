@@ -88,6 +88,7 @@ div.minimalistBlack1 {
 .divTable.minimalistBlack1 .divTableBody .divTableCell {
   font-size: 22px;
   text-align: justify;
+  padding: 1rem;
   
 }
 .divTable.minimalistBlack1 .divTableHeading {
@@ -143,13 +144,13 @@ display: none;
 .Process{
 
 
-  margin-top:80px;
+  margin-top:40px;
 
 
 }
 
 .Process_components {
-  margin-top:80px;
+  margin-top:60px;
 
 
 }

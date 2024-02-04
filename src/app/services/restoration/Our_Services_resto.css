@@ -225,7 +225,7 @@
   @media screen and (max-width: 768px) {
     .Restoration{
 
-      margin-top:80px;
+      margin-top:50px;
             
   }
 
@@ -239,8 +239,8 @@
 
   display:flex;
 flex-direction: column-reverse;
-  margin-top:80px;
-  right: 0px;
+margin-top:60px;
+right: 0px;
 }
 
 .Restoration_rightside  {
@@ -260,7 +260,7 @@ flex-direction: column-reverse;
 
 .Restoration_rightside > p {
  
-  top: 20px;
+  top: 0px;
   padding: 2rem;
 }
 
@@ -283,6 +283,8 @@ flex-direction: column-reverse;
 .Restoration_leftside1 > p {
  
 padding: 2rem;
+top: 0px;
+
 
 }
 .Restoration_rightside1 img {
@@ -306,6 +308,8 @@ padding: 2rem;
 .Restoration_rightside2 > p {
  
 padding: 2rem;
+top: 0px;
+
 }
 
 .Restoration_leftside2 img {
