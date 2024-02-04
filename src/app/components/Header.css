@@ -12,12 +12,11 @@
   left: 0;
   top: 0;
   width: 100%;
+  z-index: 10;
 }
 
 .Header_components {
-  /* position: relative; */
   position: relative;
-  /*you think its relative here and absolute in header_side*/
   width: 100vw;
 }
 

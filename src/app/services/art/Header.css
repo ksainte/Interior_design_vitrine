@@ -4,6 +4,7 @@
     align-items:center;
     justify-content: center;
     height:43rem;
+    width: 100vw;
 
     overflow: hidden;
    
@@ -12,7 +13,7 @@
 
 .header-background_art{
     
-    opacity: 0.5;
+    opacity: 1;
   position: relative; 
   left: 0;
   top: 0;
@@ -24,6 +25,7 @@
 .Header_components_art{
 
     position: absolute;
+    
 }
 
 .Header_center_art{

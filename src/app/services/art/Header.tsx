@@ -1,6 +1,8 @@
 import React from 'react'
 import './Header.css';
 import header from '../../assets/h1.jpg';
+import art_header from '../../assets/art page header background .jpg';
+
 import Image from "next/image";
 import Button from '../../components/Button'
 
@@ -9,7 +11,7 @@ function Header() {
     <div className='Header_art' >
     <Image
     className="header-background_art"
-    src= {header}
+    src= {art_header}
     alt=""
     />
       <div className='Header_components_art'>

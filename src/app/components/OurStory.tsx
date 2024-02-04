@@ -1,6 +1,8 @@
 import React from 'react'
 import "./OurStory.css"
-import BoberwArt from '../assets/BoberwArt.jpg';
+import about from '../assets/about photo for home page .jpg';
+
+
 import ziggy from '../assets/ziggy.jpg';
 import Link from 'next/link';
 

@@ -6,6 +6,9 @@
     /* border: solid green; */
     margin-top:150px;
     flex-direction: column;
+    width: 100vw;
+
+
     
     
 }
@@ -34,6 +37,8 @@
     margin-top:150px;
     position: relative;
     right: 40px;
+
+
 }
 
 

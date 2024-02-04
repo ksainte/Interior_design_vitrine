@@ -1,6 +1,12 @@
 import React from 'react'
 
 import BoberwArt from '../assets/BoberwArt.jpg';
+import art from '../assets/Art photo home page .jpg';
+import design from '../assets/Design photo home page .jpg';
+import resto from '../assets/restoration photo home page .jpg';
+
+
+
 
 import "./Our_Services.css"
 import Image from "next/image";
@@ -20,7 +26,7 @@ function Our_Services() {
         <div className='Services_leftside'>
       
         <Image 
-        src={BoberwArt} alt="header_img" 
+        src={art} alt="header_img" 
         />
         </div>
 
@@ -57,14 +63,14 @@ function Our_Services() {
         </article>
 
         <div className='Services_rightside1'>
-        <Image src={BoberwArt} alt="header_img" />
+        <Image src={design} alt="header_img" />
         </div>
         </div>
 
         <div className='Services_components2'>
 
           <div className='Services_leftside2'>
-        <Image src={BoberwArt} alt="header_img" />
+        <Image src={resto} alt="header_img" />
         </div> 
 
         <article className='Services_rightside2'>

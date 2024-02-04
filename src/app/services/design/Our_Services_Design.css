@@ -6,6 +6,8 @@
     /* border: solid green; */
     margin-top:150px;
     flex-direction: column;
+    width: 100vw;
+
     
     
 }

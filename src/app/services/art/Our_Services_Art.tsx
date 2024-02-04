@@ -1,5 +1,10 @@
 import React from 'react'
 import BoberwArt from '../../assets/BoberwArt.jpg';
+import art1 from '../../assets/art photo 1.jpg';
+import art2 from '../../assets/art photo 2.jpg';
+import art3 from '../../assets/art photo 3.jpg';
+
+
 import "./Our_Services_Art.css"
 import Image from "next/image";
 import Button from '../../components/Button'
@@ -15,7 +20,7 @@ function Our_Services_Art() {
 
    <div className='Art_leftside'>
     
-   <Image src={BoberwArt} alt="header_img" />
+   <Image src={art1} alt="header_img" />
    </div>
 
    <article className='Art_rightside'>
@@ -35,14 +40,14 @@ function Our_Services_Art() {
    </article>
 
    <div className='Art_rightside1'>
-   <Image src={BoberwArt} alt="header_img" />
+   <Image src={art2} alt="header_img" />
    </div>
    </div>
 
    <div className='Art_components2'>
 
      <div className='Art_leftside2'>
-   <Image src={BoberwArt} alt="header_img" />
+   <Image src={art3} alt="header_img" />
    </div> 
 
    <article className='Art_rightside2'>

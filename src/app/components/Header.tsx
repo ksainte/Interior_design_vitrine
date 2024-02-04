@@ -1,6 +1,8 @@
 import React from "react";
 import "./Header.css";
 import header from "../assets/h1.jpg";
+import header_home from "../assets/Header background for top of pages .jpg";
+
 import BoberwArt from "../assets/BoberwArt.jpg";
 import Image from "next/image";
 import Button from "./Button";
@@ -10,8 +12,8 @@ function Header() {
   return (
     <div className="Header">
       <Image
-        className="w-screen opacity-60 hidden md:block"
-        src={header}
+        className="w-screen opacity-100 hidden md:block"
+        src={header_home}
         alt=""
       />
 

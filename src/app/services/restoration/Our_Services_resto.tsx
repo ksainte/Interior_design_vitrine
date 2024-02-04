@@ -1,5 +1,10 @@
 import React from 'react'
 import BoberwArt from '../../assets/BoberwArt.jpg';
+import resto1 from '../../assets/restoration photo 1.jpg';
+import resto2 from '../../assets/restoration photo 2.jpg';
+import resto3 from '../../assets/restoration photo 3.jpg';
+
+
 import "./Our_Services_resto.css"
 import Image from "next/image";
 import Button from '../../components/Button'
@@ -14,7 +19,7 @@ function Our_Services_resto() {
  <div className='Restoration_components'>
 
    <div className='Restoration_leftside'>
-   <Image src={BoberwArt} alt="header_img" />
+   <Image src={resto1} alt="header_img" />
    </div>
 
    <article className='Restoration_rightside'>
@@ -33,14 +38,14 @@ function Our_Services_resto() {
    </article>
 
    <div className='Restoration_rightside1'>
-   <Image src={BoberwArt} alt="header_img" />
+   <Image src={resto2} alt="header_img" />
    </div>
    </div>
 
    <div className='Restoration_components2'>
 
      <div className='Restoration_leftside2'>
-   <Image src={BoberwArt} alt="header_img" />
+   <Image src={resto3} alt="header_img" />
    </div> 
 
    <article className='Restoration_rightside2'>

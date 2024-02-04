@@ -1,5 +1,10 @@
 import React from 'react'
 import BoberwArt from '../../assets/BoberwArt.jpg';
+import design1 from '../../assets/design photo 1.jpg';
+import design2 from '../../assets/design photo 2.jpg';
+import design3 from '../../assets/design photo 3.jpg';
+
+
 import "./Our_Services_Design.css"
 import Image from "next/image";
 import Button from '../../components/Button'
@@ -14,7 +19,7 @@ function Our_Services_Design() {
  <div className='Design_components'>
 
    <div className='Design_leftside'>
-   <Image src={BoberwArt} alt="header_img" />
+   <Image src={design1} alt="header_img" />
    </div>
 
    <article className='Design_rightside'>
@@ -33,14 +38,14 @@ function Our_Services_Design() {
    </article>
 
    <div className='Design_rightside1'>
-   <Image src={BoberwArt} alt="header_img" />
+   <Image src={design2} alt="header_img" />
    </div>
    </div>
 
    <div className='Design_components2'>
 
      <div className='Design_leftside2'>
-   <Image src={BoberwArt} alt="header_img" />
+   <Image src={design3} alt="header_img" />
    </div> 
 
    <article className='Design_rightside2'>
