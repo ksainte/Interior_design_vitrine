@@ -32,8 +32,8 @@ import { useState } from "react";
 
       <div className='navbar_right'>
         
-        <nav className="navbar_links">
-        <ul>
+        {/* <nav className="navbar_links"> */}
+        <ul className="navbar_links">
         <li>
         <Link href="/" className="links">Home</Link>
         </li>
@@ -57,7 +57,7 @@ import { useState } from "react";
               <Link href="/#contact" className="links"> Contact</Link>
             </li>
         </ul>
-        </nav>
+        {/* </nav> */}
         
 
       </div>

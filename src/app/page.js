@@ -11,9 +11,9 @@ import "./page.css";
 
 export default function Home() {
   return (
-    <main >
+    <main style={{width:'100vw'}}>
      <div className='App_body'>
-     <Header />
+     <Header/>
          <Our_Services/>
          <OurProcess/>
          <OurStory/>
@@ -24,18 +24,3 @@ export default function Home() {
   );
 }
 
-// export default function Home() {
-//   return (
-//     <main className="App">
-//      <Navbar/>
-//      <div className='App_body'>
-//      <Header />
-//          <Our_Services/>
-//          <OurProcess/>
-//          <OurStory/>
-//          <ContactUs/>
-//          <Footer/>
-//          </div>
-//     </main>
-//   );
-// }

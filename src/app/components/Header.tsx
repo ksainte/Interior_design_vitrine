@@ -9,6 +9,7 @@ import Link from 'next/link';
 
 function Header() {
   return (
+    
     <div className='Header' >
     <Image
     className="header-bg"

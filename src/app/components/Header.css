@@ -2,7 +2,7 @@
 
 
     height:43rem;
-
+    width: 100vw;
     overflow: hidden;
    
     
@@ -21,7 +21,11 @@
 
 
 .Header_components{
+    /* position: relative; */
     position: absolute;
+    /*you think its relative here and absolute in header_side*/
+    width: 100vw;
+
 
 }
 
@@ -32,8 +36,10 @@
     justify-content: center; 
     align-items: flex-start;
     flex-direction: column;
-    
+    z-index: 10;
+    /* position: absolute; */
     position: relative;
+
     padding: 0.5rem 1.5rem;
     border-radius: 1px;
     border: solid  rgb(180, 143, 48);;
@@ -43,6 +49,10 @@
     left: 1100px;
     height : 570px;
     width: 600px;
+    /* top: -40%;
+    left: 0%;
+    height : 570px;
+    width: 80%; */
 }
 
 .Header_side > h2 {
