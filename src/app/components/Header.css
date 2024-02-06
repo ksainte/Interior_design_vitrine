@@ -6,7 +6,7 @@
   /* border: solid red; */
 }
 
-.header-bg {
+/* .header-bg {
   opacity: 0.5;
 
   position: relative;
@@ -14,7 +14,7 @@
   top: 0;
   width: 100%;
   z-index: 10;
-}
+} */
 
 .Header_components {
   position: relative;
@@ -112,11 +112,11 @@
     /* border: solid red; */
     border: none;
     position: relative;
-    top: 20px;
-    left: 0px;
+    top: 50px;
+    left: 0%;
+    right: 0%;
     height: auto;
     width: auto;
-    /* border: solid red; */
-
+  
   }
 }

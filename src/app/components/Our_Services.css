@@ -246,8 +246,15 @@
   @media screen and (max-width: 768px) {
 
     .Services{
-      margin-top:100px;
+      margin-top:160px;
   }
+
+  .Services > h1 {
+
+    font-size: 3.2rem;
+ 
+
+}
 
   .Services_components {
 
@@ -268,9 +275,14 @@
 .Services_rightside > h1 {
    
 
-  bottom: 10px;
+  /* bottom: 5px; */
+  /* top: 2px; */
+  /* margin-top: 15px; */
+  bottom: 20px;
+
   text-align: center;
   font-size: 2.6rem;
+  /* border: solid red; */
 
 
  
@@ -285,6 +297,8 @@
 
 .Services_rightside > p {
 padding: 2rem;
+top: 0px;
+
 } 
  
 
@@ -299,7 +313,8 @@ padding: 2rem;
 
     .Services_leftside1 > h1 {
    
-      bottom: 0px;
+      bottom: 15px;
+      margin: 0.9rem;
       text-align: center;
       font-size: 2.6rem;
   }
@@ -319,7 +334,7 @@ padding: 2rem;
 .Services_leftside1 > p {
  
 padding: 2rem;
-top: 20px;
+top: -10px;
 
 }
 
@@ -350,7 +365,7 @@ top: 20px;
 
 .Services_rightside2 > h1 {
    
-  bottom: 10px;
+  bottom: 0px;
   text-align: center;
  /* border: solid red; */
  font-size: 2.6rem;
@@ -360,7 +375,7 @@ top: 20px;
 .Services_rightside2 > p {
  
 padding: 2rem;
-top: 20px;
+top: 25px;
 
 
 }
@@ -369,8 +384,31 @@ top: 20px;
   height : auto;
   width: auto;
   padding: 2rem;
-  margin-top: 30px;
+  margin-top: 70px;
 
 }
+.custom__button1 {
+
+    position: relative;
+    top:1%;
+}
+
+.custom__button2 {
+
+  position: relative;
+  top:7%;
+  background-color: rgb(180, 143, 48);
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  font-size: 24px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
 
 }

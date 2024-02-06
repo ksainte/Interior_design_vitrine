@@ -150,7 +150,10 @@
 
 
     text-align: center;
-    border:solid red;
+    /* padding: 2rem; */
+    /* border:solid red; */
+    font-size: 3.1rem;
+
 
 
 }
