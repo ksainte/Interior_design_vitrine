@@ -57,9 +57,21 @@
 @media screen and (max-width: 768px) {
     .Header_art{
         height:auto;
+        /* height: 53rem; */
+        /* width: 100vw; */
  
     }
 
+    .header-background_art{
+    
+        opacity: 1;
+      position: relative; 
+      left: 0;
+      top: 0;
+      height: 70vw;
+      width: 100vw; 
+    }
+    
     .Header_center_art{
 
        
