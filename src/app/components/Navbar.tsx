@@ -15,11 +15,11 @@ export default function Navbar() {
   return (
     <div className="navbar w-screen" id="navbar">
       <div className="navbar_comp">
-        <Link href="/">
           <div className="navbar_left">
+          <Link href="/">
             <Image src={logo} alt="LinkedIn" />
+            </Link>
           </div>
-        </Link>
 
         <div className="navbar_right">
           {/* <nav className="navbar_links"> */}
