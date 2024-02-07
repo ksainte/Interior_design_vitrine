@@ -152,7 +152,7 @@
     text-align: center;
     /* padding: 2rem; */
     /* border:solid red; */
-    font-size: 3.1rem;
+    font-size: 2.9rem;
 
 
 
@@ -191,13 +191,14 @@ font-size: 1.5rem/* 24px */;
 
 .app_images_card {
     position: relative;
-    min-width: 401px;
+    min-width: 100vw;
+
     height: auto;
     margin-right: 0rem;
         /* border: solid red; */
         padding: 1rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        /* padding-left: 1.5rem;
+        padding-right: 1.5rem; */
 }
 
 

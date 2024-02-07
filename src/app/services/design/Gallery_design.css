@@ -183,13 +183,14 @@ font-size: 1.5rem/* 24px */;
 
 .app__gallery-images {
     position: relative;
-    min-width: 401px;
+    min-width: 100vw;
+
     height: auto;
     margin-right: 0rem;
         /* border: solid red; */
         padding: 1rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        /* padding-left: 1.5rem;
+        padding-right: 1.5rem; */
 }
 
 
