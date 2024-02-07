@@ -8,9 +8,9 @@ import Button from '../../components/Button'
 
 function Header() {
   return (
-    <div className='Header_art overflow-y-hidden' >
+    <div className=' overflow-y-hidden' >
     <Image
-    className="header-background_art overflow-y-hidden"
+    className=" overflow-y-hidden"
     src= {art_header}
     alt=""
     />
