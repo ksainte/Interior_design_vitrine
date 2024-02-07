@@ -56,8 +56,8 @@
 
 @media screen and (max-width: 768px) {
     .Header_art{
-        height:auto;
-        width: 99.9vw;
+        height: 70vw;
+        width: 100vw;
         overflow: visible;
 
 

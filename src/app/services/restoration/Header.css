@@ -55,7 +55,7 @@
 
 @media screen and (max-width: 768px) {
     .Header_Restoration{
-        height:auto;
+        height: 70vw;
         overflow-x: visible;
 
     }
