@@ -6,6 +6,7 @@
     /* border: solid green; */
     margin-top:150px;
     flex-direction: column;
+    overflow-x: hidden;
     
     
 }
@@ -27,8 +28,9 @@
     align-items:center;
     justify-content: center;
     max-width: 90rem;
-    scroll-margin-top: 10rem;
+    /* scroll-margin-top: 10rem; */
     margin-top:80px;
+    overflow-x: hidden;
 
 }
 
