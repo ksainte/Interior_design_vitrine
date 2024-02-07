@@ -82,18 +82,20 @@
   @media screen and (max-width: 768px) {
 
     .About{
-        margin-top:60px;   
+        margin-top:30px;   
     }
 
     .About_components1 {
 
         margin-left: 0px;
         margin-top:20px;
+        /* max-width: 350px; */
+
     }
 
     .About_leftside1 img {
-        height : auto;
-        width: auto;
+      height: 100vw;
+      width: 100vw;
         margin-left: 0px;
         float: none;
         margin-bottom: 50px;
@@ -101,8 +103,13 @@
 
     .About_leftside1 > h1 {
         text-align: center;
-        bottom: 15px;
-        font-size: 2.7rem;
+        bottom: 0px;
+        font-size: 2.8rem;
+        max-width: 350px;
+        margin-left: 15px;
+
+        /* border: solid red; */
+     
 
 
     }
@@ -111,6 +118,7 @@
 
         display:flex;
         flex-direction: column;
+        
   }
 
   .About_leftside1 > p {

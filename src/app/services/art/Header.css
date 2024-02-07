@@ -17,7 +17,7 @@
   position: relative; 
   left: 0;
   top: 0;
-  width: 100%;  
+  width: 100%;
 }
 
 
@@ -69,13 +69,17 @@
       left: 0;
       top: 0;
       height: 70vw;
-      width: 100vw; 
+      width: 100vw;
+      border: solid  1px rgb(180, 143, 48);;
+
     }
     
     .Header_center_art{
 
        
         padding: 1rem;
+        border: solid 2px rgb(180, 143, 48);;
+
    
     }
 
@@ -85,7 +89,7 @@
    
     
     }
-    
+
 }
 
 
