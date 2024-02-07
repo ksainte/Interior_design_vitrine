@@ -288,8 +288,8 @@
 }
 
 .Services_leftside img {
-  height : auto;
-  width: auto;
+  height: 120vw;
+  width: 100vw;
   padding: 2rem;
   margin-top: 15px;
 }
@@ -340,8 +340,8 @@ top: 0px;
 
 
 .Services_rightside1 img {
-  height : auto;
-  width: auto;
+  height: 120vw;
+  width: 100vw;
   padding: 2rem;
   margin-top: 15px;
 
@@ -382,8 +382,8 @@ margin-top: 15px;
 }
 
 .Services_leftside2 img {
-  height : auto;
-  width: auto;
+  height: 120vw;
+  width: 100vw;
   padding: 2rem;
   margin-top: 15px;
 
