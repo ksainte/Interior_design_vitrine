@@ -3,9 +3,10 @@
     display:flex;
     align-items:center;
     justify-content: center;
-    margin-top:150px;
+    margin-top:120px;
     flex-direction: column;
-    
+    /* border: solid red; */
+
     
 }
 
@@ -31,6 +32,8 @@
     margin-top:80px;
     position: relative;
     right: 40px;
+    /* border: solid red; */
+
 }
 
 
@@ -46,7 +49,7 @@
 }
 
 .Services_leftside img {
-    height : 550px;
+    height : 650px;
     width: 550px;
   }
 
@@ -171,8 +174,8 @@
 }
 
 .Services_rightside1 img {
-    height : 550px;
-    width: 550px;
+  height : 650px;
+  width: 550px;
   }
 
   .Services_components2 {
@@ -236,8 +239,8 @@
 }
 
 .Services_leftside2 img {
-    height : 550px;
-    width: 550px;
+  height : 650px;
+  width: 550px;
   }
 
 
