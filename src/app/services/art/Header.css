@@ -58,6 +58,8 @@
     .Header_art{
         height:auto;
         width: 100vw;
+        overflow-x: visible;
+
 
 
         /* height: 53rem; */
@@ -71,6 +73,7 @@
       height: 70vw;
       width: 100vw;
       border: solid  1px rgb(180, 143, 48);;
+
 
     }
     
