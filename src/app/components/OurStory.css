@@ -62,8 +62,8 @@
     }
     
     .Services_rightside3 img {
-        height : auto;
-        width: auto;
+        height: 140vw;
+        width: 100vw;
         padding: 2rem;
         margin-top: 30px;
       }
