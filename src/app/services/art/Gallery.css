@@ -181,7 +181,7 @@ font-size: 1.5rem/* 24px */;
 
 .app__gallery-images_card {
     position: relative;
-    min-width: 401px;
+    min-width: 100vw;
     height: auto;
     margin-right: 0rem;
         /* border: solid red; */
