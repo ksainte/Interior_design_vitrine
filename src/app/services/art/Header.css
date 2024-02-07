@@ -5,7 +5,7 @@
     justify-content: center;
     height:43rem;
     width: 100vw;
-    position: relative;
+    /* position: relative; */
 
     overflow: hidden;
    
@@ -15,7 +15,7 @@
 .header-background_art{
     
     opacity: 1;
-  /* position: relative;  */
+  position: relative; 
   left: 0;
   top: 0;
   width: 100%;
@@ -25,8 +25,7 @@
 
 .Header_components_art{
 
-    /* position: absolute; */
-    position: relative;
+    position: absolute;
 
     
 }
@@ -37,7 +36,6 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    position: absolute;
 
     z-index: 20;
 
