@@ -8,8 +8,6 @@
     flex-direction: column;
     width: 100vw;
 
-
-    
     
 }
 
@@ -244,7 +242,7 @@
 
   @media screen and (max-width: 768px) {
     .Art{
-
+      width: 100vw;
       margin-top:30px;
             
   }
@@ -261,6 +259,7 @@
 flex-direction: column-reverse;
   margin-top:35px;
   right: 0px;
+
 }
 
 .Art_rightside  {
