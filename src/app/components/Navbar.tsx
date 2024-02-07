@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="navbar_comp">
           <div className="navbar_left">
           <Link href="/">
-            <Image src={logo} alt="LinkedIn" />
+            <Image className="test"src={logo} alt="LinkedIn" />
             </Link>
           </div>
 

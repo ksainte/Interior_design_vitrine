@@ -9,18 +9,28 @@
 
 .navbar_comp{
     display: flex;
-    max-width: 90%;
+    /* max-width: 120rem; */
     align-items: center;
-    justify-content : space-between;
+    justify-content : space-around;
     top: 0px;
     padding-top:10px;
     padding-bottom: 10px;
+    margin-left: 100px;
     /* border: solid blue; */
 }
 
-.navbar_left > img{
-    object-fit: contain;
-    height : 100px;
+/* .navbar_left > img{
+    height:100px;
+    width : 100px;
+    border: solid red;
+} */
+
+.test {
+  object-fit: contain;
+  /* height:100px; */
+  width : 100px;
+
+  /* border: solid red; */
 
 
 }
