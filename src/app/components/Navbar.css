@@ -190,14 +190,18 @@
 
 
   .navbar {
-      /* padding: 1rem; */
+      padding: 0.7rem;
+      /* border: solid red; */
         }
   
   .test {
       width: 110px;
       /* border: solid red; */
-      height: fit-content;
+      height: 150px;
+      object-fit: contain;
       /* object-fit: contain; */
+      /* height: 140px; */
+
 
   }
   .navbar_comp{

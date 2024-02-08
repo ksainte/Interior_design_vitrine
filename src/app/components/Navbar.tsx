@@ -16,9 +16,9 @@ export default function Navbar() {
     <div className="navbar w-screen" id="navbar">
       <div className="navbar_comp">
           <div className="navbar_left">
-          <Link href="/">
+          <a href="/">
             <Image className="test"src={logo} alt="LinkedIn" />
-            </Link>
+            </a>
           </div>
 
         <div className="navbar_right">
