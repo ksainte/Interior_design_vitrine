@@ -127,6 +127,7 @@ display: none;
       .test {
         /* border: solid red; */
         padding: 1rem;
+        width:100vw;
         }
   
 
@@ -153,7 +154,10 @@ display: none;
   margin-top:60px;
 
 
+
 }
+
+
 
 
 }

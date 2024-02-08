@@ -5,11 +5,11 @@ import OurProcessSmall from './OurProcessSmall'
 
 function OurProcess() {
   return (
-    <div className='Process' >
+    <div className='Process ' >
     <h1>Our Process</h1>
-        <div className='Process_components'>
-            <div className="divTable minimalistBlack">
-                    <div className="divTableHeading">
+        <div className='Process_components '>
+            <div className="divTable minimalistBlack ">
+                    <div className="divTableHeading ">
                     <div className="divTableRow">
                     <div className="divTableHead">Step 1</div>
                     <div className="divTableHead">Step 2</div>
