@@ -194,11 +194,11 @@
       /* border: solid red; */
         }
   
-  .test {
+  .testing {
       width: 110px;
       /* border: solid red; */
       height: 150px;
-      object-fit: contain;
+      /* object-fit: contain; */
       /* object-fit: contain; */
       /* height: 140px; */
 
