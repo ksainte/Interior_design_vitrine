@@ -26,10 +26,10 @@
 } */
 
 .testin{
-  object-fit: contain;
-  /* height:100px; */
-  width : 100px;
-  border: solid green;
+  /* object-fit: contain; */
+  height:100px;
+  width : 150px;
+  /* border: solid green; */
 
   /* border: solid red; */
 
