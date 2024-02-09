@@ -3,7 +3,7 @@ import './OurProcess.css'
 
 function OurProcess() {
   return (
-            <div className='test '>
+            <div className='test'>
             <div className="divTable minimalistBlack1">
                     <div className="divTableHeading ">
                     <div className="divTableRow">

@@ -25,10 +25,11 @@
     border: solid red;
 } */
 
-.test {
+.testin{
   object-fit: contain;
   /* height:100px; */
   width : 100px;
+  border: solid green;
 
   /* border: solid red; */
 
