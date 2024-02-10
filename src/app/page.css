@@ -3,6 +3,9 @@
     background-color: white;
     display:flex;
     flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+
 
     /* width: 100%; */
     
@@ -12,5 +15,7 @@
   
     align-items:flex-center;
     justify-content: center;
+    width:100vw;
+
     
   }

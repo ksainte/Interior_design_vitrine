@@ -7,8 +7,17 @@
     margin-top:150px;
     flex-direction: column;
     width: 100vw;
+    /* border: solid red; */
 
     
+}
+
+.ok{
+
+/* border: solid blue; */
+
+
+  
 }
 
 .Art > h1 {
@@ -30,11 +39,11 @@
 .Art_components {
 
     display:flex;
-    max-width: 90rem;
+    max-width: 100rem;
     scroll-margin-top: 10rem;
     margin-top:150px;
-    position: relative;
-    right: 40px;
+  
+    padding: 1rem;
 
 
 }
@@ -45,15 +54,18 @@
 
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    /* border: solid green; */
     
     
 }
 
 .Art_leftside img {
-  height : 650px;
-  width: 550px;
+  height :650px;
+  /* width : 650px; */
+
+  /* width: 70vw; */
   }
 
   .Art_rightside  {
@@ -62,6 +74,8 @@
     justify-content: center;
     align-items: flex-end;
     flex-direction: column;
+    /* border: solid red; */
+    /* padding: 5rem; */
 
   
   }
@@ -84,17 +98,18 @@
 
 
 .Art_rightside > p {
- 
+
+
     font-size: 1.5rem/* 24px */;
-    /* line-height: 3rem; */
     font-weight: 400;
     text-align: justify;
-    /* letter-spacing: 0.04em; */
     text-transform: capitalize;
     color: black;
      position: relative;
     top: 20px;
-    /* letter-spacing: 0.03em; */
+    max-width: 650px;
+    /* border: solid red; */
+    /* padding: 1rem; */
 
 }
 
@@ -117,11 +132,12 @@
 
   .Art_components1 {
 
-    margin-left: 170px;
+    /* margin-left: 170px; */
     display:flex;
-    max-width: 90rem;
+    max-width: 100rem;
     scroll-margin-top: 10rem;
     margin-top:80px;
+    padding: 1rem;
 }
 
   .Art_leftside1  {
@@ -139,10 +155,10 @@
     color: rgb(48, 45, 45);
     line-height: 1;
     font-weight: 600;
-    text-align: left;
     letter-spacing: 0.02em;
     position: relative;
     bottom: 40px;
+    /* padding-left: 1rem; */
    
    
 }
@@ -160,6 +176,9 @@
      position: relative;
     top: 20px;
     text-align: justify;
+    /* padding: 1rem; */
+    max-width: 650px;
+    /* padding: 1rem; */
 
 }
 
@@ -167,7 +186,7 @@
 
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     
     
@@ -175,16 +194,19 @@
 
 .Art_rightside1 img {
   height : 650px;
-  width: 550px;
+  /* padding: 1rem; */
+
+  /* width: 650px; */
   }
 
   .Art_components2 {
 
 
     display:flex;
-    max-width: 90rem;
+    max-width: 100rem;
     scroll-margin-top: 10rem;
     margin-top:80px;
+    padding: 1rem;
 }
 
   .Art_rightside2  {
@@ -222,13 +244,16 @@
      position: relative;
     top: 20px;
     text-align: justify;
+    max-width: 650px;
+    /* padding: 1rem; */
+
 }
 
   .Art_leftside2{
 
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     
     
@@ -236,7 +261,6 @@
 
 .Art_leftside2 img {
   height : 650px;
-  width: 550px;
   }
 
 
